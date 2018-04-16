@@ -1,0 +1,5 @@
+filetype        header          trailer         bytes_after_trailer
+
+jpg             FFD8FF          FFD9            0
+png             89504E47        49454E44        4
+zip             504B0304        504B0506        18

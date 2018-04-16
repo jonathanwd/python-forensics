@@ -1,5 +1,16 @@
+# The signature extractor only works with files that have a trailer. 
+# Many files instead rely on file length to identify the end of the
+# file. This extractor would have to be modified significantly to 
+# work with those file types. 
+
 filetype        header          trailer         bytes_after_trailer
 
+docx            504B0304        504B0506        18
+gif             47494638        003B            0
 jpg             FFD8FF          FFD9            0
+mpg             000001BA        000001B9        0
+pdf             25504446        0A2525454F46    0
 png             89504E47        49454E44        4
+pptx            504B0304        504B0506        18
+xlsx            504B0304        504B0506        18
 zip             504B0304        504B0506        18

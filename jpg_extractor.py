@@ -1,6 +1,6 @@
 """
-This script scans files for hidden zip files. If a file contains a zip file,
-it will be extracted using the zip file's header and trailer file signatures.
+This script scans files for hidden jpg files. If a file contains a jpg file,
+it will be extracted using the jpg file's header and trailer file signatures.
 """
 
 import argparse
